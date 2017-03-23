@@ -9,4 +9,20 @@ package com.testing.first;
  */
 public class BoundaryValueTestCase {
 
+    public void TestZeroPoint() {
+
+    }
+
+    public void TestHalfPiPoint() {
+
+    }
+
+    public void TestPiAndAHalftPoint() {
+
+    }
+
+    public void TestTwoPiPoint() {
+
+    }
+
 }

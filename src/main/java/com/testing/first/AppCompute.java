@@ -4,7 +4,7 @@ package com.testing.first;
  * Hello world!
  *
  */
-public class AppCosCompute
+public class AppCompute
 {
     public static void main( String[] args )
     {

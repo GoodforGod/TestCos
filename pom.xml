@@ -49,7 +49,7 @@
 
                     <archive>
                         <manifest>
-                            <mainClass>com.testing.first.AppCosCompute</mainClass>
+                            <mainClass>com.testing.first.AppCompute</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
