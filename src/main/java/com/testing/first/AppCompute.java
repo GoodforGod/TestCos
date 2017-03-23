@@ -1,5 +1,8 @@
 package com.testing.first;
 
+import java.util.Random;
+import java.util.concurrent.ThreadLocalRandom;
+
 /**
  * Hello world!
  *
@@ -27,6 +30,10 @@ public class AppCompute
             result += (Math.pow(x, i) / computeFactorial(i)) * (mark = (mark == 1 ? -1 : 1));
 
         return result;
+    }
+
+    public static double getRandomBetween(double from, double to) {
+        return ThreadLocalRandom.current().nextDouble(from, to);
     }
 
     public static long computeFactorial(long value) {

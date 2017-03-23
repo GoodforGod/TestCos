@@ -10,18 +10,27 @@ package com.testing.first;
 public class BoundaryValueTestCase {
 
     public void TestZeroPoint() {
+        double point = 0;
 
     }
 
     public void TestHalfPiPoint() {
+        double point = Math.PI / 2;
+
+    }
+
+    public void TestPiPoint() {
+        double point = Math.PI;
 
     }
 
     public void TestPiAndAHalftPoint() {
+        double point = Math.PI + Math.PI / 2;
 
     }
 
     public void TestTwoPiPoint() {
+        double point = 2 * Math.PI;
 
     }
 
