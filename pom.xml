@@ -11,19 +11,21 @@
   <url>http://maven.apache.org</url>
 
   <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-    <jdk-version>1.8</jdk-version>
+      <junit-version>4.12</junit-version>
+
+      <jdk-version>1.8</jdk-version>
   </properties>
 
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
+    <dependencies>
+      <dependency>
+          <groupId>junit</groupId>
+          <artifactId>junit</artifactId>
+          <version>${junit-version}</version>
+          <scope>test</scope>
+      </dependency>
+    </dependencies>
 
     <build>
         <plugins>
