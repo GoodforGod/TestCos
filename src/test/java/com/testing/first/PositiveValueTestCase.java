@@ -12,7 +12,7 @@ import org.junit.Test;
  */
 public class PositiveValueTestCase extends Assert {
 
-    private static final double delta = AppCompute.DELTA;
+    private static final double delta = AppCompute.DELTA_RESULT;
 
     @Test
     public void testFromZeroToHalfPi() {

@@ -21,7 +21,8 @@ public class AppCompute
     }
 
     public static final int STEP = 5;
-    public static final double DELTA = 0.005;
+    public static final double DELTA_RESULT = 0.005;
+    public static final double DELTA_BOUNDRY = 0.0005;
 
     public static double computeCos(double x) {
         double result = 0;
